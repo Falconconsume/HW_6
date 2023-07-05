@@ -1,0 +1,37 @@
+.block {
+    font-size: 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block .card {
+    text-align: center;
+    width: 200px;
+    background-color: antiquewhite;
+    width: calc(100% / 3);
+}
+
+.block .card .images {
+    width: 130px;
+    height: 130px;
+}
+
+.block .card .title {
+    color: #000;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.block .card p {
+    color: #000;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
