@@ -12,6 +12,7 @@
     background-color: antiquewhite;
     width: calc(100% / 3);
     border: 1px solid black;
+    margin: 10px;
 }
 
 .block .card .images {
