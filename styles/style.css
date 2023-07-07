@@ -2,23 +2,21 @@
     font-size: 0;
     width: 100%;
     margin: 0 auto;
-    display: inline-block;
-    flex-wrap: wrap;
+    text-align: center;
 }
 
 .block .card {
     display: inline-block;
-    text-align: center;
-    width: 200px;
     background-color: antiquewhite;
-    width: calc(100% / 3);
+    width: calc(100% / 4);
     border: 1px solid black;
-    margin: 10px;
+    margin: 20px;
+    text-align: center;
 }
 
 .block .card .images {
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
 }
 
@@ -28,7 +26,7 @@
     font-family: 'Roboto', sans-serif;
     font-style: bold;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 26px;
 }
 
 .block .card p {
@@ -37,5 +35,5 @@
     font-family: 'Roboto', sans-serif;    
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 36px;
 }
