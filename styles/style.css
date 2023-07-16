@@ -1,13 +1,13 @@
 .block {
     font-size: 0;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     text-align: center;
 }
 
 .block .card {
     display: inline-block;
-    background-color: antiquewhite;
+    background-color: rgba(224, 224, 224, 1);
     border: 1px solid black;
     margin: 20px;
     text-align: center;
@@ -15,8 +15,8 @@
 }
 
 .block .card .images {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border: 1px solid black;
 }
 
