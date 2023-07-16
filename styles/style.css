@@ -1,6 +1,6 @@
 .block {
     font-size: 0;
-    width: 100%;
+    max-width: 80%;
     margin: 0 auto;
     text-align: center;
 }
@@ -8,10 +8,10 @@
 .block .card {
     display: inline-block;
     background-color: antiquewhite;
-    width: calc(100% / 4);
     border: 1px solid black;
     margin: 20px;
     text-align: center;
+    width: 25%;
 }
 
 .block .card .images {
